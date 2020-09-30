@@ -1,0 +1,36 @@
+.grid {
+    width: 400px;
+    height: 600px;
+    background-image: url('./utils/NY-skyline.png');
+    position: relative; 
+    text-align: center;
+    font-size: 100px;
+}
+
+.doodler {
+    width: 60px;
+    height: 85px;
+    background-image: url('./utils/pixel-guy.png');
+    background-position-x: center;
+    background-position-y: center;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-color: darkorchid;
+    position: absolute;
+}
+
+.start-button{
+    bottom: 100px;
+    width: 200px;
+    height: 75px;
+    background-color: aliceblue;
+    border-color: darkorchid;
+}
+
+.start-title{
+    color: darkcyan;
+}
